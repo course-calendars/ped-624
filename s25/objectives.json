@@ -1,0 +1,68 @@
+{
+	"1": {
+		"description": "Examine the functional aspects of digital learning and its connection to instructional design principles.",
+		"subobjectives": {
+			"1.1": "Define the new vocabulary surrounding digital learning.",
+			"1.2": "Examine how the effective use of educational technology can impact positively on the college classroom and enhance learning in areas such as communication, collaboration, motivation, resolving problems, retrieving & evaluating information, constructing knowledge, access to educational opportunities."
+		}
+	},
+	"2": {
+		"description": "Explore the availability of technology in your college.",
+		"subobjectives": {
+			"2.1": "Research what is available to you on campus.",
+			"2.2": "Create a visual handout to inventory what is available on your campus."
+		}
+	},
+	"3": {
+		"description": "Survey a range of current digital tools; research and evaluate their usefulness and applicability to college teaching.",
+		"subobjectives": {
+			"3.1": "Identify an area of pedagogical interest in your teaching practice for which you would like to use a digital tool. Examples include increasing communication, creating social/teaching/cognitive presence, selecting content, constructing knowledge, assessing student learning, providing and collecting feedback, and designing collaborative learning activities.",
+			"3.2": "Explore available digital options related to your area of interest.",
+			"3.3": "Evaluate and compare a minimum of three digital tools.",
+			"3.4": "Defend your decision to recommend or not the use of the digital tools in terms of appropriateness to the learning outcome.",
+			"3.5": "Report on these to the class."
+		}
+	},
+	"4": {
+		"description": "Develop a lesson plan using a digital tool that provides learning activities and associated assessments, and present this to your peers. A lesson can be twenty (20) minutes to one and a half (1.5) hours.",
+		"subobjectives": {
+			"4.1": "Survey the features of a designated digital tool.",
+			"4.2": "Determine the subject matter content of the lesson, and the desired learning outcomes.",
+			"4.3": "Determine the format of the class. Will it be face to face in a regular classroom, online synchronous, or asynchronous?",
+			"4.4": "Elaborate on the pedagogy underlying the choices you made while designing this lesson and the link(s) to the digital competency framework.",
+			"4.5": "Defend your decision to recommend or not the use of the digital tools in terms of appropriateness to the learning outcome.",
+			"4.6": "Report on these to the class."
+		}
+	},
+	"5": {
+		"description": "Understand the concept of Digital Citizenship.",
+		"subobjectives": {
+			"5.1": "Consider and utilize the digital competency framework in course design.",
+			"5.2": "Explore ways to prevent cheating and plagiarism.",
+			"5.3": "Explore copyright and fair use issues.",
+			"5.4": "Explore the implications of an online presence, including privacy issues.",
+			"5.5": "Recognize the limitations and reliability (or lack thereof) of online searches, including the use of AI as a source.",
+			"5.6": "Discover strategies to improve the reliability of online search results.",
+			"5.7": "Explore the implications of using technology on a teacher\u2019s workload."
+		}
+	},
+	"6": {
+		"description": "Understand the implications of generative AI for teaching, learning, and assessment.",
+		"subobjectives": {
+			"6.1": "Describe how generative AI tools (e.g., ChatGPT) function on a basic level.",
+			"6.2": "Recognize ethical concerns related to generative AI, including labor practices, dataset bias, and environmental impact.",
+			"6.3": "Summarize the limitations of AI as a source of reliable academic information.",
+			"6.4": "List potential pedagogical uses of AI tools when combined with human oversight (e.g., idea generation, outlining, editing).",
+			"6.5": "Explain why banning AI is not an effective long-term strategy in educational contexts.",
+			"6.6": "Identify key components of an institutional or course-level policy on responsible AI use."
+		}
+	},
+	"7": {
+		"description": "Rethink the teaching and learning process through an AI lens.",
+		"subobjectives": {
+			"7.1": "Evaluate how generative AI use can support or undermine specific learning outcomes.",
+			"7.2": "Reflect on the pedagogical and ethical considerations surrounding AI-assisted student work, including concerns about authorship, critical thinking, and assessment validity.",
+			"7.3": "Redesign an existing assignment to either resist or ethically integrate generative AI, using evidence-informed frameworks (e.g., AIAS, Process-Product Assessment Model)."
+		}
+	}
+}

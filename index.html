@@ -3,159 +3,18 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Course Calendar</title>
-		<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.min.js"></script>
+		<title>PED 624 Course Calendars</title>
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<!-- Handlebars Template -->
-		<script id="calendar-template" type="text/x-handlebars-template">
-			<ul class='vik-legend'>
-				<li class='vik-item vik-reading'>Reading</li>
-				<li class='vik-item vik-video'>Video</li>
-				<li class='vik-item vik-activity'>Formative Activity</li>
-				<li class='vik-item vik-assignment'>Summative Assessment</li>
-				<li class='vik-item vik-lesson'>Lesson</li>
-				<li class='vik-item vik-quiz'>Quiz</li>
-			</ul>
-
-			<table class="vik-table">
-			<thead>
-			<tr>
-				<th>Date/Time</th>
-				<th>Learning Objectives</th>
-				<th>Activities and Instructional Strategies</th>
-				<th>Assessments</th>
-			</tr>
-			</thead>
-			<tbody>
-			{{#each this}}
-				<!-- Asynchronous Row -->
-				<tr id="{{currentWeekId syncLabel}}">
-				<td class="vik-week">
-					Async
-					{{asyncLabel}}
-					({{sumTime async assessments "async"}})
-				</td>
-				<td class="vik-objectives" rowspan="2">
-					<ul>
-					{{#each objectives}}
-						<li><strong>{{this}}</strong> {{lookupObjective this}}</li>
-					{{/each}}
-					</ul>
-				</td>
-				<td class="vik-list">
-					<ul>
-					{{#each async}}
-						{{#if link}}
-							<li>
-								<a class="vik-item vik-{{type}}" href="{{link}}" target="_blank">
-									{{title}}
-									{{#if note}}<small>{{note}}</small>{{/if}}
-									{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
-								</a>
-							</li>
-						{{else}}
-							<li class="vik-item vik-{{type}}">
-								{{title}}
-								{{#if note}}<small>{{note}}</small>{{/if}}
-								{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
-							</li>
-						{{/if}}
-					{{/each}}
-					</ul>
-				</td>
-				<td class="vik-list">
-					<ul>
-					{{#each assessments}}
-						{{#if (eq timing "async")}}
-							{{#if link}}
-								<li>
-									<a class="vik-item vik-{{type}}" href="{{link}}" target="_blank">
-										{{title}}
-										{{#if note}}<small>{{note}}</small>{{/if}}
-										{{#if due}}<span class="vik-due">{{due}}</span>{{/if}}
-										{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
-									</a>
-								</li>
-							{{else}}
-								<li class="vik-item vik-{{type}}">
-									{{title}}
-									{{#if note}}<small>{{note}}</small>{{/if}}
-									{{#if due}}<span class="vik-due">{{due}}</span>{{/if}}
-									{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
-								</li>
-							{{/if}}
-						{{/if}}
-					{{/each}}
-					</ul>
-				</td>
-				</tr>
-
-				<!-- Synchronous Row -->
-				{{#if syncLabel}}
-				<tr>
-				<td class="vik-week">
-					Sync Class
-					{{syncLabel}}
-					({{sumTime sync assessments "sync"}})
-				</td>
-				<td class="vik-list">
-					<ul>
-					{{#each sync}}
-						{{#if link}}
-							<li>
-								<a class="vik-item vik-{{type}}" href="{{link}}" target="_blank">
-									{{title}}
-									{{#if note}}<small>{{note}}</small>{{/if}}
-									{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
-								</a>
-							</li>
-						{{else}}
-							<li class="vik-item vik-{{type}}">
-								{{title}}
-								{{#if note}}<small>{{note}}</small>{{/if}}
-								{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
-							</li>
-						{{/if}}
-					{{/each}}
-					</ul>
-				</td>
-				<td class="vik-list">
-					<ul>
-					{{#each assessments}}
-						{{#if (eq timing "sync")}}
-							{{#if link}}
-								<li>
-									<a class="vik-item vik-{{type}}" href="{{link}}" target="_blank">
-										{{title}}
-										{{#if note}}<small>{{note}}</small>{{/if}}
-										{{#if due}}<span class="vik-due">{{due}}</span>{{/if}}
-										{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
-									</a>
-								</li>
-							{{else}}
-								<li class="vik-item vik-{{type}}">
-									{{title}}
-									{{#if note}}<small>{{note}}</small>{{/if}}
-									{{#if due}}<span class="vik-due">{{due}}</span>{{/if}}
-									{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
-								</li>
-							{{/if}}
-						{{/if}}
-					{{/each}}
-					</ul>
-				</td>
-				</tr>
-				{{/if}}
-			{{/each}}
-			</tbody>
-		</script>
-
-		<!-- Container for Rendered Calendar -->
-		<div id="calendar-container"></div>
-
-		<!-- JSON Data and Script to Render Calendar -->
-		<script src="main.js"></script>
+		<main class="course-calendar-index">
+			<h1>PED 624 Course Calendars</h1>
+			<nav aria-label="Available course calendars">
+				<ul>
+					<li><a href="s25/">Spring 2025</a></li>
+					<li><a href="f26/">Fall 2026</a></li>
+				</ul>
+			</nav>
+		</main>
 	</body>
 </html>

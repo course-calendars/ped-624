@@ -1,0 +1,637 @@
+[
+	{
+		"asyncLabel": "Sept. 8–13",
+		"syncLabel": "Sept. 14",
+		"objectives": ["1.1", "2.1", "2.2", "3.1", "3.2"],
+		"async": [
+			{
+				"type": "reading",
+				"title": "Welcome Letter",
+				"link": "https://moodle.usherbrooke.ca/mod/resource/view.php?id=3266403",
+				"time": "10m"
+			},
+			{
+				"type": "reading",
+				"title": "\"Technological Pedagogical Content Knowledge,\" Mishra and Koehler",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/4714297/mod_folder/content/0/Mishra%20and%20Koehler%20-%202006%20-%20Technological%20Pedagogical%20Content%20Knowledge%20A%20Framework%20for%20Teacher%20Knowledge.pdf?forcedownload=1",
+				"time": "2h"
+			},
+			{
+				"type": "reading",
+				"title": "\"Do Your Practices Respect the Rules on the Protection of Personal Information,\" Educative",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/4714297/mod_folder/content/0/Educative%20Editorial%20Team%20-%202023%20-%20Do%20Your%20Practices%20Respect%20the%20Act%20on%20the%20Protection%20of%20Personal%20Information.pdf?forcedownload=1",
+				"time": "30m"
+			},
+			{
+				"type": "video",
+				"title": "Watch Padlet video",
+				"link": "https://www.youtube.com/watch?v=dC69Sr-OQik",
+				"time": "10m"
+			},
+			{
+				"type": "activity",
+				"title": "Create a Padlet account",
+				"link": "https://padlet.com/",
+				"time": "5m"
+			},
+			{
+				"type": "activity",
+				"title": "Upload a Moodle profile picture",
+				"time": "5m"
+			}
+		],
+		"sync": [
+			{
+				"type": "activity",
+				"title": "Introduction, Moodle / Teams, Icebreaker",
+				"time": "30m"
+			},
+			{
+				"type": "lesson",
+				"title": "Discuss TPACK Survey Results",
+				"link": "https://docs.google.com/forms/d/19KKgx62S2oxgq4Iuc5iN5fgCzWPn6vVwgy4xeHfS8_0/edit#responses",
+				"time": "15m"
+			},
+			{
+				"type": "activity",
+				"title": "Discuss Glossary (part of CoI)",
+				"link": "https://moodle.usherbrooke.ca/mod/glossary/view.php?id=3262227",
+				"time": "30m"
+			},
+			{
+				"type": "lesson",
+				"title": "Discuss ponderation of hours in a blended course",
+				"time": "30m"
+			},
+			{
+				"type": "lesson",
+				"title": "Discuss AI policy and opportunities to use it",
+				"time": "30m"
+			},
+			{
+				"type": "lesson",
+				"title": "Class 1 Slides (PDF)",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/4715311/mod_folder/content/0/Pedagogy%20of%20Digital%20Learning%20-%20Class%201%20Slides.pdf?forcedownload=1"
+			},
+			{
+				"type": "lesson",
+				"title": "Class 1 Slides (Live)",
+				"link": "https://www.singh.gg/slides/624/1"
+			},
+			{
+				"type": "lesson",
+				"title": "Class 1 Recording",
+				"link": "https://usherbrooke.sharepoint.com/:f:/r/sites/PED624-PedagogyofDigitalLearning-Summer2025/Documents%20partages/Class%20Meetings/Recordings/Class%201?csf=1&web=1&e=EjpdNo"
+			}
+		],
+		"assessments": [
+			{
+				"type": "quiz",
+				"title": "Pre TPACK Survey",
+				"note": "Do this quiz before you read any articles!",
+				"due": "DUE MAY 13",
+				"link": "https://forms.gle/2U4QgppsS9f6n9WB7",
+				"timing": "async",
+				"time": "30m"
+			},
+			{
+				"type": "activity",
+				"title": "Glossary",
+				"note": "Ongoing throughout course",
+				"link": "https://moodle.usherbrooke.ca/mod/glossary/view.php?id=3262227",
+				"timing": "async",
+				"time": "15m"
+			},
+			{
+				"type": "activity",
+				"title": "CoI activities",
+				"note": "Ongoing throughout course",
+				"timing": "async",
+				"time": "15m"
+			},
+			{
+				"type": "activity",
+				"title": "Mentimeter questions throughout presentation",
+				"timing": "sync",
+				"time": "30m"
+			},
+			{
+				"type": "assignment",
+				"title": "Discuss Assessment #2 - Survey and Assessment of Educational Tools",
+				"link": "https://moodle.usherbrooke.ca/mod/assign/view.php?id=3262235",
+				"timing": "sync",
+				"time": "15m"
+			}
+		]
+	},
+	{
+		"asyncLabel": "May 16–21",
+		"syncLabel": "May 22",
+		"objectives": ["1.2", "3.2", "3.3", "3.4", "3.5", "5.1"],
+
+		"async": [
+			{
+				"type": "reading",
+				"title": "\"Fostering Meaningful Student Learning Through Constructivist Pedagogy and Technology Integration,\" Keengwe",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/4714297/mod_folder/content/0/Keengwe%20and%20Onchwari%20-%202011%20-%20Fostering%20Meaningful%20Student%20Learning%20Through%20Cons.pdf?forcedownload=1",
+				"time": "1h"
+			},
+			{
+				"type": "video",
+				"title": "SAMR Model (H5P)",
+				"link": "https://moodle.usherbrooke.ca/mod/h5pactivity/view.php?id=3262256&forceview=1",
+				"time": "30m"
+			},
+			{
+				"type": "video",
+				"title": "The Activated Classroom - A Pedagogy for EdTech",
+				"link": "https://youtu.be/0IfuGt5HHSs",
+				"time": "1h"
+			}
+		],
+		"sync": [
+			{
+				"type": "video",
+				"title": "PICRAT for Effective Technology Integration in Teaching",
+				"link": "https://youtu.be/bfvuG620Bto",
+				"time": "5m"
+			},
+			{
+				"type": "activity",
+				"title": "PICRAT interactive walkthrough",
+				"link": "https://www.picrat.com/",
+				"time": "30m"
+			},
+			{
+				"type": "activity",
+				"title": "Create checklist on how to evaluate a tool",
+				"link": "https://usherbrooke.sharepoint.com/:x:/r/sites/PED624-PedagogyofDigitalLearning-Summer2025/Documents%20partages/General/Class%202%20-%20Tool%20Evaluation%20Checklist.xlsx?d=wb13999ba2fa84a27b17b108e6cb744c4&csf=1&web=1&e=GdOXFw",
+				"time": "30m"
+			},
+			{
+				"type": "lesson",
+				"title": "Discuss Keengwe and Onchwari article",
+				"time": "45m"
+			},
+			{
+				"type": "video",
+				"title": "Zotero for Reference Management",
+				"link": "https://youtu.be/yFjzdypDPL4?list=PLXVt1LPJfiAuLr72aRqIjSuohCG9Qhm_p",
+				"time": "10m"
+			},
+			{
+				"type": "lesson",
+				"title": "Class 2 Slides (PDF)",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/4715311/mod_folder/content/0/Pedagogy%20of%20Digital%20Learning%20-%20Class%202%20Slides.pdf?forcedownload=1"
+			},
+			{
+				"type": "lesson",
+				"title": "Class 2 Slides (Live)",
+				"link": "https://www.singh.gg/slides/624/2"
+			},
+			{
+				"type": "lesson",
+				"title": "Class 2 Recording",
+				"link": "https://usherbrooke.sharepoint.com/:f:/r/sites/PED624-PedagogyofDigitalLearning-Summer2025/Documents%20partages/Class%20Meetings/Recordings/Class%202?csf=1&web=1&e=tPojbK"
+			}
+		],
+		"assessments": [
+			{
+				"type": "quiz",
+				"title": "The Activated Classroom - A Pedagogy for EdTech",
+				"note": "Based on the video",
+				"link": "https://moodle.usherbrooke.ca/mod/quiz/view.php?id=3262258",
+				"timing": "async",
+				"time": "30m"
+			},
+			{
+				"type": "activity",
+				"title": "IT at Your College Padlet",
+				"note": "Part of CoI",
+				"due": "DUE MAY 22",
+				"link": "https://moodle.usherbrooke.ca/mod/forum/view.php?id=3262255",
+				"timing": "async",
+				"time": "6h"
+			},
+			{
+				"type": "activity",
+				"title": "Glossary Entry #1",
+				"due": "DUE MAY 22",
+				"link": "https://moodle.usherbrooke.ca/mod/glossary/view.php?id=3262227",
+				"timing": "async",
+				"time": "1h"
+			},
+			{
+				"type": "activity",
+				"title": "Present your Padlet (group or individual) on IT availability on your campus, any surprises, evaluation of platforms",
+				"link": "https://moodle.usherbrooke.ca/mod/forum/view.php?id=3262255",
+				"timing": "sync",
+				"time": "30m"
+			},
+			{
+				"type": "assignment",
+				"title": "Discuss Assessment #2 - Survey and Assessment of Educational Tools",
+				"link": "https://moodle.usherbrooke.ca/mod/assign/view.php?id=3262235&forceview=1",
+				"timing": "sync",
+				"time": "30m"
+			}
+		]
+	},
+	{
+		"asyncLabel": "May 23–28",
+		"syncLabel": "May 29",
+		"objectives": [
+			"4.1",
+			"4.2",
+			"4.3",
+			"5.4",
+			"5.5",
+			"5.6",
+			"6.1",
+			"6.2",
+			"6.3"
+		],
+		"async": [
+			{
+				"type": "reading",
+				"title": "\"Digital Competency Framework,\" Ministère de l'Éducation et de l'Enseignement supérieur",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/4714297/mod_folder/content/0/Minist%C3%A8re%20de%20l%C3%A9ducation%20et%20de%20lenseignement%20sup%C3%A9rieur%20-%202019%20-%20Digital%20competency%20framework.pdf?forcedownload=1",
+				"time": "2h"
+			},
+			{
+				"type": "video",
+				"title": "Is AI a Valid Source? (PlayPosit)",
+				"link": "https://www.playposit.com/join-class/1523167-1330865",
+				"note": "Make sure to make a STUDENT account",
+				"time": "1h"
+			},
+			{
+				"type": "video",
+				"title": "The 5 Cs (TEDed)",
+				"link": "https://ed.ted.com/on/dG7vXIpJ",
+				"note": "Follow the links beside the video to follow along",
+				"time": "30m"
+			},
+			{
+				"type": "activity",
+				"title": "Explore the Top IT Tools website",
+				"link": "https://www.toptools4learning.com/",
+				"time": "30m"
+			}
+		],
+		"sync": [
+			{
+				"type": "lesson",
+				"title": "Explore the Digital Competency Framework",
+				"time": "1h"
+			},
+			{
+				"type": "lesson",
+				"title": "Choose a tool to turn into a learning activity",
+				"time": "1h"
+			},
+			{
+				"type": "lesson",
+				"title": "Introduction to Generative AI",
+				"time": "1h"
+			},
+			{
+				"type": "lesson",
+				"title": "Class 3 Slides (PDF)",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/4715311/mod_folder/content/0/Pedagogy%20of%20Digital%20Learning%20-%20Class%203%20Slides.pdf?forcedownload=1"
+			},
+			{
+				"type": "lesson",
+				"title": "Class 3 Slides (Live)",
+				"link": "https://www.singh.gg/slides/624/3"
+			},
+			{
+				"type": "lesson",
+				"title": "Class 3 Recording",
+				"link": "https://usherbrooke.sharepoint.com/:f:/r/sites/PED624-PedagogyofDigitalLearning-Summer2025/Documents%20partages/Class%20Meetings/Recordings/Class%203?csf=1&web=1&e=gRUoAU"
+			}
+		],
+		"assessments": [
+			{
+				"type": "assignment",
+				"title": "Assessment #2 - Survey of Tools",
+				"note": "Post your tools on the forum",
+				"due": "DUE MAY 28",
+				"link": "https://moodle.usherbrooke.ca/mod/assign/view.php?id=3262235&forceview=1",
+				"timing": "async",
+				"time": "10h"
+			},
+			{
+				"type": "activity",
+				"title": "Glossary Entry #2",
+				"due": "DUE MAY 29",
+				"link": "https://moodle.usherbrooke.ca/mod/glossary/view.php?id=3262227",
+				"timing": "async",
+				"time": "1h"
+			},
+			{
+				"type": "activity",
+				"title": "Digital Competency Superheroes (Miro)",
+				"link": "https://miro.com/app/board/uXjVIwDfAMU=/?share_link_id=183174370145",
+				"timing": "sync",
+				"time": "30m"
+			}
+		]
+	},
+	{
+		"asyncLabel": "May 30 – June 4",
+		"syncLabel": "June 5",
+		"objectives": [
+			"1.2",
+			"5.1",
+			"5.2",
+			"6.1",
+			"6.2",
+			"6.3",
+			"6.4",
+			"6.5",
+			"6.6"
+		],
+		"async": [
+			{
+				"type": "reading",
+				"title": "\"Assignment Design: Is AI In or Out?\" Penn State",
+				"link": "https://cetli.upenn.edu/resources/generative-ai/assignment-design-is-ai-in-or-out/",
+				"time": "1h"
+			},
+			{
+				"type": "reading",
+				"title": "\"AI-resistant assessments in higher education,\" Alkouk and Khlaif",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/4714297/mod_folder/content/0/Alkouk%20and%20Khlaif%20-%202024%20-%20AI-resistant%20assessments%20in%20higher%20education%20Practical%20insights%20from%20faculty%20training%20workshops.pdf?forcedownload=1",
+				"time": "2h"
+			},
+			{
+				"type": "reading",
+				"title": "\"The artificial intelligence assessment scale (AIAS),\" Perkins",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/4714297/mod_folder/content/0/Perkins%20et%20al.%20-%202024%20-%20The%20artificial%20intelligence%20assessment%20scale%20%28AIAS%29%20A%20framework%20for%20ethical%20integration%20of%20generati.pdf?forcedownload=1",
+				"time": "2h"
+			}
+		],
+		"sync": [
+			{
+				"type": "quiz",
+				"title": "Go over CAT feedback",
+				"link": "https://moodle.usherbrooke.ca/mod/feedback/view.php?id=3278510",
+				"time": "30m"
+			},
+			{
+				"type": "lesson",
+				"title": "AI: Citing, institutional policies, using it ethically, AI-human interactions, sustainability, tips & tricks, prompt design, accessibility, PD for teachers, etc.",
+				"time": "1h"
+			},
+			{
+				"type": "lesson",
+				"title": "Digital Citizenship and Digital Resiliency",
+				"time": "1h"
+			},
+			{
+				"type": "lesson",
+				"title": "Class 4 Slides (PDF)",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/4715311/mod_folder/content/0/Pedagogy%20of%20Digital%20Learning%20-%20Class%204%20Slides.pdf?forcedownload=1"
+			},
+			{
+				"type": "lesson",
+				"title": "Class 4 Slides (Live)",
+				"link": "https://www.singh.gg/slides/624/4"
+			}
+		],
+		"assessments": [
+			{
+				"type": "assignment",
+				"title": "Assessment #1 - Journal",
+				"due": "DUE JUNE 4",
+				"link": "https://moodle.usherbrooke.ca/mod/assign/view.php?id=3262233",
+				"timing": "async",
+				"time": "4h"
+			},
+			{
+				"type": "assignment",
+				"title": "Assessment #2",
+				"note": "Respond to two peers' posts",
+				"due": "DUE JUNE 1",
+				"link": "https://moodle.usherbrooke.ca/mod/assign/view.php?id=3262235",
+				"timing": "async",
+				"time": "1h"
+			},
+			{
+				"type": "assignment",
+				"title": "Assessment #2",
+				"note": "Post your self-reflection",
+				"due": "DUE JUNE 4",
+				"link": "https://moodle.usherbrooke.ca/mod/assign/view.php?id=3262235",
+				"timing": "async",
+				"time": "1h"
+			},
+			{
+				"type": "activity",
+				"title": "Glossary Entry #3",
+				"due": "DUE JUNE 5",
+				"link": "https://moodle.usherbrooke.ca/mod/glossary/view.php?id=3262227",
+				"timing": "async",
+				"time": "50m"
+			},
+			{
+				"type": "quiz",
+				"title": "Stop Start Continue (Moodle Feedback)",
+				"note": "Anonymous feedback on the course so far",
+				"link": "https://moodle.usherbrooke.ca/mod/feedback/view.php?id=3278510",
+				"timing": "async",
+				"time": "10m"
+			},
+			{
+				"type": "activity",
+				"title": "Digital Resiliency Toolkit (Canva)",
+				"link": "https://www.canva.com/design/DAGpTxfCDkk/4_5RuEPBEd2Mo21fc_KfXg/edit?utm_content=DAGpTxfCDkk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+				"timing": "sync",
+				"time": "30m"
+			}
+		]
+	},
+	{
+		"asyncLabel": "June 6–11",
+		"syncLabel": "June 12",
+		"objectives": ["4.4", "4.5", "5.2", "5.3"],
+		"async": [
+			{
+				"type": "video",
+				"title": "A Student's Guide to Navigating Perusall",
+				"link": "https://youtu.be/1_gR6E3dE-c",
+				"time": "30m"
+			},
+			{
+				"type": "reading",
+				"title": "\"Copyright Matters,\" Noel & Snel",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/4714297/mod_folder/content/0/Noel%20and%20Snel%20-%202016%20-%20Copyright%20Matters%21.pdf?forcedownload=1",
+				"time": "1h"
+			},
+			{
+				"type": "video",
+				"title": "2 EdPuzzle Videos on Copyright and Fair Dealing",
+				"note": "Make sure to watch both videos",
+				"link": "https://edpuzzle.com/join/losrugu",
+				"time": "30m"
+			}
+		],
+		"sync": [
+			{
+				"type": "lesson",
+				"title": "Discuss copyright and fair dealing",
+				"time": "1h"
+			},
+			{
+				"type": "activity",
+				"title": "Activity about copyright",
+				"time": "30m"
+			},
+			{
+				"type": "activity",
+				"title": "Share IT Learning Activity in small groups to give and receive peer feedback.",
+				"time": "1.5h"
+			},
+			{
+				"type": "lesson",
+				"title": "Class 5 Slides (PDF)",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/4715311/mod_folder/content/0/Pedagogy%20of%20Digital%20Learning%20-%20Class%205%20Slides.pdf?forcedownload=1"
+			},
+			{
+				"type": "lesson",
+				"title": "Class 5 Slides (Live)",
+				"link": "https://www.singh.gg/slides/624/5"
+			}
+		],
+		"assessments": [
+			{
+				"type": "assignment",
+				"title": "Assessment #3 - Learning Activity (Draft)",
+				"link": "https://moodle.usherbrooke.ca/mod/assign/view.php?id=3262239&forceview=1",
+				"due": "DUE JUNE 12",
+				"timing": "async",
+				"time": "13h"
+			},
+			{
+				"type": "activity",
+				"title": "\"Copyright Matters,\" Noel & Snel",
+				"note": "Annotate on Perusall",
+				"link": "https://app.perusall.com/join/singh-qjbeh",
+				"due": "DUE JUNE 12",
+				"timing": "async",
+				"time": "3h"
+			}
+		]
+	},
+	{
+		"asyncLabel": "June 13–18",
+		"syncLabel": "June 19",
+		"objectives": ["1.1", "1.2", "4.4", "5.1"],
+		"async": [],
+		"sync": [
+			{
+				"type": "lesson",
+				"title": "Finish up with AI",
+				"time": "1h"
+			},
+			{
+				"type": "activity",
+				"title": "Share AI assessment redesign in small groups to give and receive peer feedback.",
+				"time": "1.5h"
+			},
+			{
+				"type": "lesson",
+				"title": "Class 6 Slides (PDF)",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/4715311/mod_folder/content/0/Pedagogy%20of%20Digital%20Learning%20-%20Class%206%20Slides.pdf?forcedownload=1"
+			},
+			{
+				"type": "lesson",
+				"title": "Class 6 Slides (Live)",
+				"link": "https://www.singh.gg/slides/624/6"
+			}
+		],
+		"assessments": [
+			{
+				"type": "assignment",
+				"title": "Assessment #3 - Learning Activity (Final)",
+				"link": "https://moodle.usherbrooke.ca/mod/assign/view.php?id=3262239&forceview=1",
+				"due": "DUE JUNE 18",
+				"timing": "async",
+				"time": "10h"
+			},
+			{
+				"type": "assignment",
+				"title": "Assessment #4 - AI Redesign (Draft)",
+				"link": "https://moodle.usherbrooke.ca/mod/assign/view.php?id=3281588&forceview=1",
+				"due": "DUE JUNE 19",
+				"timing": "async",
+				"time": "3h"
+			},
+			{
+				"type": "activity",
+				"title": "Assessment #4 Peer Feedback Workshop",
+				"note": "Upload your draft here before class.",
+				"link": "https://moodle.usherbrooke.ca/mod/workshop/view.php?id=3289324",
+				"due": "DUE JUNE 19",
+				"timing": "async",
+				"time": "1h"
+			},
+			{
+				"type": "quiz",
+				"title": "Perusall Feedback (Microsoft Forms)",
+				"note": "How did you like it?",
+				"link": "https://forms.office.com/r/dzRPgRXPhT",
+				"timing": "async",
+				"time": "30m"
+			},
+			{
+				"type": "quiz",
+				"title": "Post TPACK Survey",
+				"note": "Yup, do it again!",
+				"due": "DUE JUNE 18",
+				"link": "https://forms.gle/qeuBYRRiFLEyd1c86",
+				"timing": "async",
+				"time": "30m"
+			},
+			{
+				"type": "quiz",
+				"title": "Quiz on Glossary Terms",
+				"timing": "sync",
+				"time": "30m"
+			}
+		]
+	},
+	{
+		"asyncLabel": "June 20 – July 04",
+		"objectives": ["7.1", "7.2", "7.3"],
+		"async": [],
+		"sync": [],
+		"assessments": [
+			{
+				"type": "assignment",
+				"title": "Assessment #4 - AI Redesign (Final)",
+				"link": "https://moodle.usherbrooke.ca/mod/assign/view.php?id=3281588&forceview=1",
+				"due": "DUE JULY 04",
+				"timing": "async",
+				"time": "14h"
+			},
+			{
+				"type": "assignment",
+				"title": "Assessment #5 - Professional Contribution to the Community of Inquiry (CoI)",
+				"link": "https://moodle.usherbrooke.ca/mod/quiz/view.php?id=3289325&forceview=1",
+				"due": "DUE JULY 04",
+				"timing": "async",
+				"time": "30m"
+			},
+			{
+				"type": "quiz",
+				"title": "Course Evaluation",
+				"note": "This helps me improve the course for future students!",
+				"link": "http://www.usherbrooke.ca/evaluation-enseignement/",
+				"timing": "async",
+				"time": "30m"
+			}
+		]
+	}
+]
