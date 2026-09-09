@@ -7,19 +7,19 @@
 			{
 				"type": "reading",
 				"title": "Welcome Letter",
-				"link": "https://moodle.usherbrooke.ca/mod/resource/view.php?id=3266403",
-				"time": "10m"
+				"link": "https://moodle.usherbrooke.ca/mod/resource/view.php?id=3813588",
+				"time": "5m"
 			},
 			{
 				"type": "reading",
-				"title": "\"Technological Pedagogical Content Knowledge,\" Mishra and Koehler",
-				"link": "https://moodle.usherbrooke.ca/pluginfile.php/4714297/mod_folder/content/0/Mishra%20and%20Koehler%20-%202006%20-%20Technological%20Pedagogical%20Content%20Knowledge%20A%20Framework%20for%20Teacher%20Knowledge.pdf?forcedownload=1",
+				"title": "Technological Pedagogical Content Knowledge, Mishra and Koehler",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/5378233/mod_folder/content/0/Minist%C3%A8re%20de%20l%C3%A9ducation%20et%20de%20lenseignement%20sup%C3%A9rieur%20-%202026%20-%20Digital%20competency%20framework.pdf?forcedownload=1",
 				"time": "2h"
 			},
 			{
 				"type": "reading",
-				"title": "\"Do Your Practices Respect the Rules on the Protection of Personal Information,\" Educative",
-				"link": "https://moodle.usherbrooke.ca/pluginfile.php/4714297/mod_folder/content/0/Educative%20Editorial%20Team%20-%202023%20-%20Do%20Your%20Practices%20Respect%20the%20Act%20on%20the%20Protection%20of%20Personal%20Information.pdf?forcedownload=1",
+				"title": "Do Your Practices Respect the Rules on the Protection of Personal Information, Educative",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/5378233/mod_folder/content/0/Educative%20Editorial%20Team%20-%202023%20-%20Do%20Your%20Practices%20Respect%20the%20Act%20on%20the%20Protection%20of%20Personal%20Information.pdf?forcedownload=1",
 				"time": "30m"
 			},
 			{
@@ -36,7 +36,13 @@
 			},
 			{
 				"type": "activity",
-				"title": "Upload a Moodle profile picture",
+				"title": "Upload a Moodle & Teams profile picture",
+				"time": "5m"
+			},
+			{
+				"type": "activity",
+				"title": "Make introductory slide",
+				"link": "https://docs.google.com/presentation/d/1ua7jS-NynbUcldjxoMlhB4qizLxIHGrZoZSbZQWmJUw/edit?usp=sharing",
 				"time": "5m"
 			}
 		],
@@ -54,8 +60,8 @@
 			},
 			{
 				"type": "activity",
-				"title": "Discuss Glossary (part of CoI)",
-				"link": "https://moodle.usherbrooke.ca/mod/glossary/view.php?id=3262227",
+				"title": "Discuss Glossary (CoI)",
+				"link": "https://moodle.usherbrooke.ca/mod/glossary/view.php?id=3813591",
 				"time": "30m"
 			},
 			{
@@ -67,21 +73,6 @@
 				"type": "lesson",
 				"title": "Discuss AI policy and opportunities to use it",
 				"time": "30m"
-			},
-			{
-				"type": "lesson",
-				"title": "Class 1 Slides (PDF)",
-				"link": "https://moodle.usherbrooke.ca/pluginfile.php/4715311/mod_folder/content/0/Pedagogy%20of%20Digital%20Learning%20-%20Class%201%20Slides.pdf?forcedownload=1"
-			},
-			{
-				"type": "lesson",
-				"title": "Class 1 Slides (Live)",
-				"link": "https://www.singh.gg/slides/624/1"
-			},
-			{
-				"type": "lesson",
-				"title": "Class 1 Recording",
-				"link": "https://usherbrooke.sharepoint.com/:f:/r/sites/PED624-PedagogyofDigitalLearning-Summer2025/Documents%20partages/Class%20Meetings/Recordings/Class%201?csf=1&web=1&e=EjpdNo"
 			}
 		],
 		"assessments": [
@@ -89,8 +80,8 @@
 				"type": "quiz",
 				"title": "Pre TPACK Survey",
 				"note": "Do this quiz before you read any articles!",
-				"due": "DUE MAY 13",
-				"link": "https://forms.gle/2U4QgppsS9f6n9WB7",
+				"due": "DUE SEP 12",
+				"link": "https://forms.gle/NQtt7sbin7noXBCq8",
 				"timing": "async",
 				"time": "30m"
 			},
@@ -98,7 +89,7 @@
 				"type": "activity",
 				"title": "Glossary",
 				"note": "Ongoing throughout course",
-				"link": "https://moodle.usherbrooke.ca/mod/glossary/view.php?id=3262227",
+				"link": "https://moodle.usherbrooke.ca/mod/glossary/view.php?id=3813591",
 				"timing": "async",
 				"time": "15m"
 			},
@@ -118,7 +109,6 @@
 			{
 				"type": "assignment",
 				"title": "Discuss Assessment #2 - Survey and Assessment of Educational Tools",
-				"link": "https://moodle.usherbrooke.ca/mod/assign/view.php?id=3262235",
 				"timing": "sync",
 				"time": "15m"
 			}
