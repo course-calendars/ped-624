@@ -102,15 +102,114 @@
 			},
 			{
 				"type": "activity",
-				"title": "Mentimeter questions throughout presentation",
+				"title": "Mentimeter questions",
 				"timing": "sync",
 				"time": "30m"
 			},
 			{
 				"type": "assignment",
-				"title": "Discuss Assessment #2 - Survey and Assessment of Educational Tools",
+				"title": "Assessments overview",
 				"timing": "sync",
 				"time": "15m"
+			}
+		]
+	},
+	{
+		"asyncLabel": "Sept. 15-27",
+		"syncLabel": "Sept. 28",
+		"objectives": ["1.2", "3.2", "3.3", "3.4", "3.5", "5.1"],
+
+		"async": [
+			{
+				"type": "reading",
+				"title": "Fostering Meaningful Student Learning Through Constructivist Pedagogy and Technology Integration, Keengwe",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/5378233/mod_folder/content/0/Keengwe%20and%20Onchwari%20-%202011%20-%20Fostering%20Meaningful%20Student%20Learning%20Through%20Constructivist%20Pedagogy%20and%20Technology%20Integration.pdf?forcedownload=1",
+				"time": "1h"
+			},
+			{
+				"type": "video",
+				"title": "PICRAT Model (H5P)",
+				"link": "https://moodle.usherbrooke.ca/mod/h5pactivity/view.php?id=3823528",
+				"time": "30m"
+			},
+			{
+				"type": "video",
+				"title": "The Activated Classroom - A Pedagogy for EdTech",
+				"link": "https://youtu.be/0IfuGt5HHSs",
+				"time": "1h"
+			}
+		],
+		"sync": [
+			{
+				"type": "activity",
+				"title": "PICRAT interactive walkthrough",
+				"link": "https://www.picrat.com/",
+				"time": "30m"
+			},
+			{
+				"type": "activity",
+				"title": "Create checklist on how to evaluate a tool",
+				"time": "30m"
+			},
+			{
+				"type": "lesson",
+				"title": "Discuss Keengwe and Onchwari article",
+				"time": "50m"
+			},
+			{
+				"type": "video",
+				"title": "Zotero for Reference Management",
+				"link": "https://youtu.be/yFjzdypDPL4?list=PLXVt1LPJfiAuLr72aRqIjSuohCG9Qhm_p",
+				"time": "10m"
+			}
+		],
+		"assessments": [
+			{
+				"type": "quiz",
+				"title": "The Activated Classroom - A Pedagogy for EdTech",
+				"note": "Based on the video",
+				"link": "https://moodle.usherbrooke.ca/mod/quiz/view.php?id=3813603",
+				"timing": "async",
+				"time": "30m"
+			},
+			{
+				"type": "activity",
+				"title": "IT at Your College Padlet",
+				"note": "(CoI)",
+				"due": "DUE SEP 27",
+				"link": "https://moodle.usherbrooke.ca/mod/forum/view.php?id=3813593",
+				"timing": "async",
+				"time": "6h"
+			},
+			{
+				"type": "activity",
+				"title": "Glossary Entry #1",
+				"note": "(CoI)",
+				"due": "DUE SEP 27",
+				"link": "https://moodle.usherbrooke.ca/mod/glossary/view.php?id=3813591",
+				"timing": "async",
+				"time": "30m"
+			},
+			{
+				"type": "assignment",
+				"title": "Choose pedagogical challenge for assessment #2",
+				"due": "DUE SEP 21",
+				"link": "https://moodle.usherbrooke.ca/mod/questionnaire/view.php?id=3824019",
+				"timing": "async",
+				"time": "30m"
+			},
+			{
+				"type": "activity",
+				"title": "Present your Padlet on IT availability on your campus, any surprises, evaluation of platforms",
+				"link": "https://moodle.usherbrooke.ca/mod/forum/view.php?id=3813593",
+				"timing": "sync",
+				"time": "30m"
+			},
+			{
+				"type": "assignment",
+				"title": "Get your group for assessment #2",
+				"timing": "sync",
+				"time": "30m"
 			}
 		]
 	}
