@@ -12,13 +12,13 @@
 			},
 			{
 				"type": "reading",
-				"title": "Technological Pedagogical Content Knowledge, Mishra and Koehler",
+				"title": "Technological Pedagogical Content Knowledge (Mishra & Koehler)",
 				"link": "https://moodle.usherbrooke.ca/pluginfile.php/5378233/mod_folder/content/0/Mishra%20and%20Koehler%20-%202006%20-%20Technological%20Pedagogical%20Content%20Knowledge%20A%20Framework%20for%20Teacher%20Knowledge.pdf?forcedownload=1",
 				"time": "2h"
 			},
 			{
 				"type": "reading",
-				"title": "Do Your Practices Respect the Rules on the Protection of Personal Information, Educative",
+				"title": "Do Your Practices Respect the Rules on the Protection of Personal Information (Educative)",
 				"link": "https://moodle.usherbrooke.ca/pluginfile.php/5378233/mod_folder/content/0/Educative%20Editorial%20Team%20-%202023%20-%20Do%20Your%20Practices%20Respect%20the%20Act%20on%20the%20Protection%20of%20Personal%20Information.pdf?forcedownload=1",
 				"time": "30m"
 			},
@@ -127,12 +127,11 @@
 	{
 		"asyncLabel": "Sept. 15-27",
 		"syncLabel": "Sept. 28",
-		"objectives": ["1.2", "3.2", "3.3", "3.4", "3.5", "5.1"],
-
+		"objectives": ["1.2", "3.2", "3.3", "3.4"],
 		"async": [
 			{
 				"type": "reading",
-				"title": "Fostering Meaningful Student Learning Through Constructivist Pedagogy and Technology Integration, Keengwe",
+				"title": "Fostering Meaningful Student Learning Through Constructivist Pedagogy and Technology Integration (Keengwe)",
 				"link": "https://moodle.usherbrooke.ca/pluginfile.php/5378233/mod_folder/content/0/Keengwe%20and%20Onchwari%20-%202011%20-%20Fostering%20Meaningful%20Student%20Learning%20Through%20Constructivist%20Pedagogy%20and%20Technology%20Integration.pdf?forcedownload=1",
 				"time": "1h"
 			},
@@ -218,6 +217,91 @@
 			{
 				"type": "assignment",
 				"title": "Get your group for assessment #2",
+				"timing": "sync",
+				"time": "30m"
+			}
+		]
+	},
+	{
+		"asyncLabel": "Sept. 29 - Oct. 18",
+		"syncLabel": "Oct. 19",
+		"objectives": [
+			"4.1",
+			"4.2",
+			"4.3",
+			"5.4",
+			"5.5",
+			"5.6",
+			"6.1",
+			"6.2",
+			"6.3"
+		],
+		"async": [
+			{
+				"type": "reading",
+				"title": "Digital Competency Framework (MÉES)",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/5378233/mod_folder/content/0/Minist%C3%A8re%20de%20l%C3%A9ducation%20et%20de%20lenseignement%20sup%C3%A9rieur%20-%202026%20-%20Digital%20competency%20framework.pdf?forcedownload=1",
+				"time": "2h"
+			},
+			{
+				"type": "activity",
+				"title": "AI Pedagogy Project",
+				"link": "https://moodle.usherbrooke.ca/mod/page/view.php?id=3835228&forceview=1",
+				"time": "1h"
+			},
+			{
+				"type": "video",
+				"title": "The 5 Cs (TEDed)",
+				"link": "https://ed.ted.com/on/UN4B9wue",
+				"note": "Click the links beside the video to follow along",
+				"time": "30m"
+			},
+			{
+				"type": "activity",
+				"title": "Explore the Top IT Tools website",
+				"link": "https://www.toptools4learning.com/",
+				"time": "30m"
+			}
+		],
+		"sync": [
+			{
+				"type": "lesson",
+				"title": "Explore the Digital Competency Framework",
+				"time": "1h"
+			},
+			{
+				"type": "lesson",
+				"title": "Choose a tool to turn into a learning activity",
+				"time": "1h"
+			},
+			{
+				"type": "lesson",
+				"title": "Introduction to Generative AI",
+				"time": "30m"
+			}
+		],
+		"assessments": [
+			{
+				"type": "assignment",
+				"title": "Assessment #2",
+				"note": "Post your tutorial in the workshop",
+				"due": "DUE OCT 18",
+				"link": "https://moodle.usherbrooke.ca/mod/workshop/view.php?id=3835051",
+				"timing": "async",
+				"time": "7h"
+			},
+			{
+				"type": "activity",
+				"title": "Glossary Entry #2",
+				"due": "DUE OCT 11",
+				"link": "https://moodle.usherbrooke.ca/mod/glossary/view.php?id=3813591",
+				"timing": "async",
+				"time": "1h"
+			},
+			{
+				"type": "activity",
+				"title": "Digital Competency Superheroes (Miro)",
+				"link": "",
 				"timing": "sync",
 				"time": "30m"
 			}
