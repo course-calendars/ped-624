@@ -270,7 +270,14 @@
 				"type": "activity",
 				"title": "Explore the Top IT Tools website",
 				"link": "https://www.toptools4learning.com/",
-				"time": "30m"
+				"time": "15m"
+			},
+			{
+				"type": "activity",
+				"title": "Tool Evaluation Checklist",
+				"link": "https://moodle.usherbrooke.ca/mod/page/view.php?id=3837845&forceview=1",
+				"note": "You made this during last class!",
+				"time": "15m"
 			}
 		],
 		"sync": [
