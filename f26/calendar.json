@@ -318,9 +318,125 @@
 			{
 				"type": "activity",
 				"title": "Digital Competency Superheroes (Miro)",
-				"link": "",
+				"link": "https://miro.com/app/board/uXjVEYZesyo=/?share_link_id=805009292694",
 				"timing": "sync",
 				"time": "30m"
+			}
+		]
+	},
+	{
+		"asyncLabel": "Oct. 20 – Nov. 1",
+		"syncLabel": "Nov. 2",
+		"objectives": ["1.2", "5.2", "5.7", "6.2", "6.5", "6.6", "7.1"],
+		"async": [
+			{
+				"type": "reading",
+				"title": "\"Assignment Design: Is AI In or Out?\" UPenn CETLI",
+				"link": "https://cetli.upenn.edu/resources/generative-ai/assignment-design-is-ai-in-or-out/",
+				"time": "1h"
+			},
+			{
+				"type": "reading",
+				"title": "\"AI-resistant assessments in higher education,\" Alkouk and Khlaif",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/5378233/mod_folder/content/0/Alkouk%20and%20Khlaif%20-%202024%20-%20AI-resistant%20assessments%20in%20higher%20education%20Practical%20insights%20from%20faculty%20training%20workshops.pdf?forcedownload=1",
+				"time": "1.5h"
+			},
+			{
+				"type": "reading",
+				"title": "\"The artificial intelligence assessment scale (AIAS),\" Perkins",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/5378233/mod_folder/content/0/Perkins%20et%20al.%20-%202024%20-%20The%20artificial%20intelligence%20assessment%20scale%20%28AIAS%29%20A%20framework%20for%20ethical%20integration%20of%20generati.pdf?forcedownload=1",
+				"time": "1.5h"
+			}
+		],
+		"sync": [
+			{
+				"type": "lesson",
+				"title": "Go over Stop Start Continue feedback",
+				"time": "15m"
+			},
+			{
+				"type": "lesson",
+				"title": "AI ethics, sustainability, and accessibility",
+				"time": "20m"
+			},
+			{
+				"type": "activity",
+				"title": "Brainstorm: what goes in an AI policy? (AhaSlides)",
+				"time": "15m"
+			},
+			{
+				"type": "lesson",
+				"title": "Designing AI in or out, AI-resistant assessments",
+				"time": "20m"
+			},
+			{
+				"type": "lesson",
+				"title": "Process-Product Model and the AI Assessment Scale (AIAS)",
+				"time": "20m"
+			},
+			{
+				"type": "lesson",
+				"title": "AI usage policies: GR(AI)DIENT and SCRIPT",
+				"link": "https://singh.gg/notes/The-SCRIPT-Framework",
+				"time": "30m"
+			},
+			{
+				"type": "lesson",
+				"title": "Citing AI use (APA)",
+				"time": "15m"
+			},
+			{
+				"type": "lesson",
+				"title": "Does process mean more grading?",
+				"time": "10m"
+			}
+		],
+		"assessments": [
+			{
+				"type": "assignment",
+				"title": "Assessment #2",
+				"link": "https://moodle.usherbrooke.ca/mod/assign/view.php?id=3850223&forceview=1",
+				"note": "Submit your group's comparative table",
+				"due": "DUE OCT 26",
+				"timing": "async",
+				"time": "1h"
+			},
+			{
+				"type": "assignment",
+				"title": "Assessment #1 - Journal",
+				"link": "https://moodle.usherbrooke.ca/mod/assign/view.php?id=3813595",
+				"due": "DUE OCT 30",
+				"timing": "async",
+				"time": "4h"
+			},
+			{
+				"type": "activity",
+				"title": "Glossary Entry #3",
+				"due": "DUE OCT 25",
+				"link": "https://moodle.usherbrooke.ca/mod/glossary/view.php?id=3813591",
+				"timing": "async",
+				"time": "50m"
+			},
+			{
+				"type": "quiz",
+				"title": "Stop Start Continue (Moodle Feedback)",
+				"link": "https://moodle.usherbrooke.ca/mod/feedback/view.php?id=3813602",
+				"note": "Anonymous feedback on the course so far",
+				"due": "DUE NOV 1",
+				"timing": "async",
+				"time": "10m"
+			},
+			{
+				"type": "activity",
+				"title": "Analyze your Task 4 assessment with AIAS + SCRIPT",
+				"timing": "sync",
+				"time": "15m"
+			},
+			{
+				"type": "activity",
+				"title": "Enter AI: co-design your Task 3 or Task 4 with AI",
+				"timing": "sync",
+				"time": "10m"
 			}
 		]
 	}
