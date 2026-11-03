@@ -366,39 +366,29 @@
 			},
 			{
 				"type": "lesson",
-				"title": "AI ethics, sustainability, and accessibility",
-				"time": "20m"
-			},
-			{
-				"type": "activity",
-				"title": "Brainstorm: what goes in an AI policy? (AhaSlides)",
-				"time": "15m"
+				"title": "AI ethics, sustainability, accessibility, and citing AI use (APA)",
+				"time": "1h"
 			},
 			{
 				"type": "lesson",
-				"title": "Designing AI in or out, AI-resistant assessments",
-				"time": "20m"
+				"title": "Designing AI in or out: AI-resistant assessments, Process-Product Model, AIAS, and grading load",
+				"time": "1h"
 			},
 			{
 				"type": "lesson",
-				"title": "Process-Product Model and the AI Assessment Scale (AIAS)",
-				"time": "20m"
-			},
-			{
-				"type": "lesson",
-				"title": "AI usage policies: GR(AI)DIENT and SCRIPT",
+				"title": "AI usage policies: brainstorm (AhaSlides), GR(AI)DIENT, and SCRIPT",
 				"link": "https://singh.gg/notes/The-SCRIPT-Framework",
-				"time": "30m"
+				"time": "45m"
 			},
 			{
 				"type": "lesson",
-				"title": "Citing AI use (APA)",
-				"time": "15m"
+				"title": "Class 4 Slides",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/5377796/mod_folder/content/0/Pedagogy%20of%20Digital%20Learning%20-%20Class%204.pdf?forcedownload=1"
 			},
 			{
 				"type": "lesson",
-				"title": "Does process mean more grading?",
-				"time": "10m"
+				"title": "Class 4 Recording",
+				"link": "https://usherbrooke.sharepoint.com/:f:/r/sites/PED624-PedagogyofDigitalLearning-Fall2026/Documents%20partages/Class%20Meetings/Recordings/Class%204?d=w6731e24d413e4b959a4ad22c9176fc39&csf=1&web=1&e=yfB2Ry"
 			}
 		],
 		"assessments": [
@@ -435,18 +425,90 @@
 				"due": "DUE NOV 1",
 				"timing": "async",
 				"time": "10m"
+			}
+		]
+	},
+	{
+		"asyncLabel": "Nov. 3–15",
+		"syncLabel": "Nov. 16",
+		"objectives": ["4.4", "4.5", "4.6", "5.2", "5.3"],
+		"async": [
+			{
+				"type": "video",
+				"title": "A Student's Guide to Navigating Perusall",
+				"link": "https://youtu.be/1_gR6E3dE-c",
+				"time": "30m"
 			},
 			{
-				"type": "activity",
-				"title": "Analyze your Task 4 assessment with AIAS + SCRIPT",
-				"timing": "sync",
+				"type": "reading",
+				"title": "\"Copyright Matters!,\" Noel & Snel",
+				"link": "https://moodle.usherbrooke.ca/pluginfile.php/5378233/mod_folder/content/0/Noel%20and%20Snel%20-%202022%20-%20Copyright%20Matters%21.pdf?forcedownload=1",
+				"time": "1h"
+			},
+			{
+				"type": "video",
+				"title": "Interactive videos on Copyright and Fair Dealing",
+				"link": "https://edpuzzle.com/join/losrugu",
+				"note": "Make sure to watch both videos",
+				"time": "30m"
+			}
+		],
+		"sync": [
+			{
+				"type": "lesson",
+				"title": "Discuss copyright and fair dealing",
+				"time": "1h"
+			},
+			{
+				"type": "lesson",
+				"title": "Perusall highlights",
 				"time": "15m"
 			},
 			{
 				"type": "activity",
-				"title": "Enter AI: co-design your Task 3 or Task 4 with AI",
+				"title": "Copyright Decision Tool activity",
+				"link": "https://www.fairdealingdecisiontool.ca/DecisionTool/",
+				"time": "20m"
+			},
+			{
+				"type": "activity",
+				"title": "Share Assessment #3 draft in small groups to give and receive peer feedback",
+				"time": "1h"
+			}
+		],
+		"assessments": [
+			{
+				"type": "assignment",
+				"title": "Assessment #2",
+				"link": "https://moodle.usherbrooke.ca/mod/workshop/view.php?id=3835051",
+				"note": "Peer evaluation",
+				"due": "DUE NOV 9",
+				"timing": "async",
+				"time": "1h"
+			},
+			{
+				"type": "activity",
+				"title": "\"Copyright Matters!,\" Noel & Snel",
+				"link": "https://app.perusall.com/join/SINGH-9J3MZ",
+				"note": "Annotate on Perusall",
+				"due": "DUE NOV 16",
+				"timing": "async",
+				"time": "2h"
+			},
+			{
+				"type": "assignment",
+				"title": "Assessment #3 - Learning Activity (Draft)",
+				"link": "https://moodle.usherbrooke.ca/mod/workshop/view.php?id=3813598",
+				"note": "Upload your draft to the peer feedback workshop before class",
+				"due": "DUE NOV 16",
+				"timing": "async",
+				"time": "5h"
+			},
+			{
+				"type": "quiz",
+				"title": "Quiz on Glossary Terms",
 				"timing": "sync",
-				"time": "10m"
+				"time": "15m"
 			}
 		]
 	}
