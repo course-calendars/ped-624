@@ -1,0 +1,17 @@
+#!/bin/sh
+# Adds checkbox ids to any staged calendar JSON before committing.
+# Enable once per clone with: git config core.hooksPath .githooks
+
+# Git GUIs such as VS Code may not inherit the shell's PATH.
+PATH="/opt/homebrew/bin:$HOME/.bun/bin:$PATH"
+
+staged=$(git diff --cached --name-only --diff-filter=AM -- '*/calendar*.json')
+[ -z "$staged" ] && exit 0
+
+# Process every calendar file in each affected term folder together, so an
+# item shared by calendar.json and calendar-draft.json gets the same id.
+for dir in $(echo "$staged" | xargs -n1 dirname | sort -u); do
+	bun scripts/add-calendar-ids.js "$dir"/calendar*.json || exit 1
+done
+
+echo "$staged" | xargs git add

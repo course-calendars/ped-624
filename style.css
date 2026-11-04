@@ -77,7 +77,25 @@
 	justify-content: space-between;
 }
 
-.vik-list ul a {
+.vik-list ul li:has(> .vik-check) {
+	gap: 6px;
+}
+
+.vik-check {
+	flex-shrink: 0;
+	margin: 0;
+	width: 1rem;
+	height: 1rem;
+	accent-color: var(--accent-color);
+	cursor: pointer;
+}
+
+.vik-list ul li:has(> .vik-check:checked) > .vik-item {
+	opacity: 0.45;
+}
+
+.vik-list ul a,
+.vik-list ul li > span.vik-item {
 	text-decoration: none;
 	display: flex;
 	width: 100%;

@@ -41,6 +41,41 @@ Handlebars.registerHelper(
 	},
 );
 
+// Checked-off items live only in the student's browser, keyed per calendar page.
+const doneKey = `ped624-done:${location.pathname}`;
+
+/** @returns {Set<string> | null} null when the browser blocks storage */
+function loadDone() {
+	try {
+		return new Set(JSON.parse(localStorage.getItem(doneKey) || "[]"));
+	} catch {
+		return null;
+	}
+}
+
+const done = loadDone();
+
+function saveDone() {
+	try {
+		localStorage.setItem(doneKey, JSON.stringify([...(done || [])]));
+	} catch {
+		// Storage blocked or full; the check just won't persist.
+	}
+}
+
+Handlebars.registerHelper(
+	"checkbox",
+	(/** @type {string | undefined} */ id, /** @type {string} */ title) => {
+		if (!(id && done)) {
+			return "";
+		}
+		const e = Handlebars.escapeExpression;
+		return new Handlebars.SafeString(
+			`<input type="checkbox" class="vik-check" data-id="${e(id)}" aria-label="Done: ${e(title)}"${done.has(id) ? " checked" : ""}>`,
+		);
+	},
+);
+
 Handlebars.registerHelper(
 	"eq",
 	(/** @type {unknown} */ a, /** @type {unknown} */ b) => {
@@ -190,6 +225,19 @@ async function loadCalendar() {
 	const calendarHTML = template(calendarData);
 
 	container.innerHTML = calendarHTML;
+
+	container.addEventListener("change", (event) => {
+		const box = event.target;
+		if (!(done && box instanceof HTMLInputElement && box.dataset.id)) {
+			return;
+		}
+		if (box.checked) {
+			done.add(box.dataset.id);
+		} else {
+			done.delete(box.dataset.id);
+		}
+		saveDone();
+	});
 
 	const current = document.getElementById("current-week");
 	if (current) {

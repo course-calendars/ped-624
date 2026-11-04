@@ -49,6 +49,7 @@
 					{{#each async}}
 						{{#if link}}
 							<li>
+								{{checkbox id title}}
 								<a class="vik-item vik-{{type}}" href="{{link}}" target="_blank">
 									{{title}}
 									{{#if note}}<small>{{note}}</small>{{/if}}
@@ -56,10 +57,13 @@
 								</a>
 							</li>
 						{{else}}
-							<li class="vik-item vik-{{type}}">
-								{{title}}
-								{{#if note}}<small>{{note}}</small>{{/if}}
-								{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
+							<li>
+								{{checkbox id title}}
+								<span class="vik-item vik-{{type}}">
+									{{title}}
+									{{#if note}}<small>{{note}}</small>{{/if}}
+									{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
+								</span>
 							</li>
 						{{/if}}
 					{{/each}}
@@ -71,6 +75,7 @@
 						{{#if (eq timing "async")}}
 							{{#if link}}
 								<li>
+									{{checkbox id title}}
 									<a class="vik-item vik-{{type}}" href="{{link}}" target="_blank">
 										{{title}}
 										{{#if note}}<small>{{note}}</small>{{/if}}
@@ -79,11 +84,14 @@
 									</a>
 								</li>
 							{{else}}
-								<li class="vik-item vik-{{type}}">
-									{{title}}
-									{{#if note}}<small>{{note}}</small>{{/if}}
-									{{#if due}}<span class="vik-due">{{due}}</span>{{/if}}
-									{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
+								<li>
+									{{checkbox id title}}
+									<span class="vik-item vik-{{type}}">
+										{{title}}
+										{{#if note}}<small>{{note}}</small>{{/if}}
+										{{#if due}}<span class="vik-due">{{due}}</span>{{/if}}
+										{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
+									</span>
 								</li>
 							{{/if}}
 						{{/if}}
@@ -105,6 +113,7 @@
 					{{#each sync}}
 						{{#if link}}
 							<li>
+								{{checkbox id title}}
 								<a class="vik-item vik-{{type}}" href="{{link}}" target="_blank">
 									{{title}}
 									{{#if note}}<small>{{note}}</small>{{/if}}
@@ -112,10 +121,13 @@
 								</a>
 							</li>
 						{{else}}
-							<li class="vik-item vik-{{type}}">
-								{{title}}
-								{{#if note}}<small>{{note}}</small>{{/if}}
-								{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
+							<li>
+								{{checkbox id title}}
+								<span class="vik-item vik-{{type}}">
+									{{title}}
+									{{#if note}}<small>{{note}}</small>{{/if}}
+									{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
+								</span>
 							</li>
 						{{/if}}
 					{{/each}}
@@ -127,6 +139,7 @@
 						{{#if (eq timing "sync")}}
 							{{#if link}}
 								<li>
+									{{checkbox id title}}
 									<a class="vik-item vik-{{type}}" href="{{link}}" target="_blank">
 										{{title}}
 										{{#if note}}<small>{{note}}</small>{{/if}}
@@ -135,11 +148,14 @@
 									</a>
 								</li>
 							{{else}}
-								<li class="vik-item vik-{{type}}">
-									{{title}}
-									{{#if note}}<small>{{note}}</small>{{/if}}
-									{{#if due}}<span class="vik-due">{{due}}</span>{{/if}}
-									{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
+								<li>
+									{{checkbox id title}}
+									<span class="vik-item vik-{{type}}">
+										{{title}}
+										{{#if note}}<small>{{note}}</small>{{/if}}
+										{{#if due}}<span class="vik-due">{{due}}</span>{{/if}}
+										{{#if time}}<span class="vik-time">{{time}}</span>{{/if}}
+									</span>
 								</li>
 							{{/if}}
 						{{/if}}
